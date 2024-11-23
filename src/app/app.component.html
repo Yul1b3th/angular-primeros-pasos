@@ -1,0 +1,44 @@
+<div>
+  <h1>{{ title }}</h1>
+  <p>Bienvenido a Angular</p>
+  <h2>Counter en app-root</h2>
+  <h3>Counter {{ counter }}</h3>
+  <button (click)="increaseBy(1)" class="btn btn-primary">+1</button>
+  <button (click)="reset()" class="btn btn-danger">Reset</button>
+  <button (click)="increaseBy(-1)" class="btn btn-secondary">-1</button>
+</div>
+
+<hr />
+
+<div>
+  <h2>Counter en app.component.html que llama a app-counter</h2>
+  <app-counter></app-counter>
+</div>
+
+<hr />
+
+<div>
+  <h2>Counter en app.component.html que llama a app-counter</h2>
+  <app-counter></app-counter>
+</div>
+
+<hr />
+
+<div>
+  <h2>Otro Counter en app.component.html que llama a app-counter</h2>
+  <app-counter></app-counter>
+</div>
+
+<hr />
+
+<div>
+  <h2>Hero Component</h2>
+  <app-heroes-hero></app-heroes-hero>
+  <hr />
+  <h2>Hero List</h2>
+  <app-heroes-list></app-heroes-list>
+</div>
+
+<hr />
+
+<app-dbz-main-page />
